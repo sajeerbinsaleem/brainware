@@ -1,0 +1,207 @@
+.hero_box {
+	    background: #45bbbb !important;
+	}
+	.hero_boxes {
+	    margin-top: 50px;
+	}
+	.crs-cont{
+		padding-top: 10% !important;
+	}
+	/*.hero_slide_content h1 span {
+	    background: #6e6c6d !important;
+	    color: #ffffff;
+	    margin: 0px;
+	}*/
+	/*.hero_slide_content h1 span {
+	    background: #14B884 !important;
+	    color: #ffffff;
+	    margin: 0px;
+	    font-weight: 500;
+	    border-radius: 6px;
+	}*/
+	.hero_slide_content h1 span {
+	    background: #ffef19 !important	;
+	    color: #3a3a3a;
+	    border-radius: 6px;
+	    font-weight: 600;
+	    margin: 0px;
+	}
+	.header_side {
+		height: 50% !important;
+	    background: #45bbbb !important;
+	}
+	.section_title h1::before {
+	    
+	    background: #45bbbb !important;
+	}
+	.course_price {
+	    background: #45bbbb !important;
+	}
+	.register_section {
+	    background: #45bbbb !important;
+	}
+	.search_submit_button {
+	    background: #45bbbb !important;
+	}
+	.event_date {
+	    border: solid 2px #45bbbb !important;
+	}
+	.event_day {
+    	color: #45bbbb !important;
+	}
+	.event_month {
+	    color: #45bbbb !important;
+	}
+	.newsletter_submit_btn {
+	    background: #45bbbb !important;
+	}
+	.hero_slide_content h1 {
+	    font-size: 55px !important;
+	}
+	.owl-carousel .owl-item {
+		height: 130% !important;
+	}
+	.header_content {
+		background: rgb(254, 254, 254) !important;
+	    height: 50% !important;
+	}
+	.header_content::before {
+	    box-shadow: none !important;
+	   /* z-index: 999;*/
+	}
+	.header{
+		background: none !important;
+		top: 20px !important;
+	}
+	.hero_slide_content h1 {
+	    color: #3d3d3d !important;
+	}
+	.hero_slide_container {
+	    width: 80%;
+	    height: 75vh;
+	}
+	.hero_slide_content {
+	    margin: 10px;
+	}
+	.hero_slide_content {
+	    -webkit-transform: translateY(-115px) !important;
+	    -moz-transform: translateY(-115px) !important;
+	    -ms-transform: translateY(-115px) !important;
+	    -o-transform: translateY(-115px) !important;
+	    transform: translateY(-115px) !important;
+	}
+	.dark {
+	    -webkit-transform: translateY(95px) !important;
+	    -moz-transform: translateY(95px) !important;
+	    -ms-transform: translateY(95px) !important;
+	    -o-transform: translateY(95px) !important;
+	    transform: translateY(95px) !important;
+
+	}
+	/*.dark h1 {
+		color: #ffff !important;
+	}*/
+	.dark h1 {
+	    color: #45bbbb !important;
+	}
+	.brain-slide-2 {
+		-webkit-transform: translateY(-70px) !important;
+	    -moz-transform: translateY(-70px) !important;
+	    -ms-transform: translateY(-70px) !important;
+	    -o-transform: translateY(-70px) !important;
+	    transform: translateY(-70px) !important;
+		padding-right: 100px;
+	}
+	.brain-slide-2 span {
+		color: #ffff !important;
+		margin-left: 3px;
+	}
+	img.logo-img {
+	    max-width: 75px;
+	    max-height: 40px;
+	}
+	.btn-brain {
+		background: #44a7a9;
+	}
+
+    .hero_boxes_inner {
+	    top: -185px !important;
+	}
+	.hero_slide_background {
+	    background-size: contain;
+	    background-position: right;
+	    top: 30px;
+	    height: 76%;
+	}
+	.line {
+	    left: 20%;
+	    margin-top: 104px;
+	    max-width: 325px;
+	    border: 0.1px solid #6d6c6d61;
+	}
+
+	@media only screen and (min-device-width: 480px) {
+		.mobile-banner {
+			display: none;
+		}
+
+    }
+
+	@media only screen and (max-device-width: 480px) {
+		.header_content {
+		    background: rgb(254, 254, 254) !important;
+		    height: 100% !important;
+		}
+		.hero_slide_content.dark.text-center {
+		    display: none;
+		}
+		.hero_slide_background {
+		    background-size: contain;
+		    background-position: right;
+		    /*top: 30px;*/
+		    /*height: 63%;*/
+		    /*top: 75px;*/
+		    /*height: 30%;*/
+		}
+		.line {
+		    display: none;
+		}
+		.hero_slide_container {
+		    width: 80%;
+		    height: 31vh;
+		}
+		.hero_slide_content h1 {
+		    font-size: 28px !important;
+		    /* background: white; */
+		}
+		.home {
+		    width: 100%;
+		    height: 76vh;
+		}
+		.mobile-banner {
+		    height: 150px;
+		}
+		/*.brain-banner {
+		    text-align: center;
+		    color: #45bbbb;
+		}*/
+		.brain-banner {
+		    text-align: center;
+		    color: #372a1a;
+		}
+		.brain-span {
+			 /*background: #ffef19 !important	;
+		    color: #3a3a3a;*/
+		    background: #45bbbb !important;
+    		color: #ffffff;
+		    border-radius: 6px;
+		    font-weight: 600;
+		    margin: 0px;
+		    padding: 3px;
+		}
+		.header {
+		    background: none !important;
+		    top: 5px !important;
+		}
+
+    }
